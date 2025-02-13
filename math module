@@ -1,0 +1,21 @@
+import math 
+
+print(math.sqrt(16)) #4.0
+
+print(math.pow(3,5)) #243.0
+
+print(math.ceil(25.8)) #26
+
+print(math.floor(18.2)) #18
+
+print(math.factorial(4))
+
+print(math.gcd(12,18))
+
+print(math.log(8, 2))  # Output: 3.0 (since 2³ = 8)
+
+print(math.radians(180))  # Output: 3.141592653589793 (which is π)
+
+print(math.degrees(math.pi))  # Output: 180.0
+
+print(math.pi)  # Output: 3.141592653589793
