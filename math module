@@ -19,3 +19,24 @@ print(math.radians(180))  # Output: 3.141592653589793 (which is π)
 print(math.degrees(math.pi))  # Output: 180.0
 
 print(math.pi)  # Output: 3.141592653589793
+
+
+#Find the Hypotenuse of a Right Triangle
+import math
+def hypo(a,b):
+    
+    return math.sqrt(a**2 + b**2) 
+
+print(hypo(3, 4)) 
+
+#Find the Smallest Power of 2 Greater Than a Number
+import math
+
+def next_power_of_2(n):
+    # Find the exponent x such that 2^x is just greater than n
+    x = math.ceil(math.log2(n))  # Round up log2(n) to get the next power
+    return int(math.pow(2, x))
+    
+# Taking user input
+n = int(input("Enter a number: "))
+print(f"The next power of 2 greater than {n} is: {next_power_of_2(n)}")
